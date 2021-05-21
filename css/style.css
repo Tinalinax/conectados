@@ -75,7 +75,7 @@ font-family:'Architects Daughter';
  }
 
  #subtituloIndex {
-  font-size:  vw;
+  font-size:  2vw;
   text-align: center;
   animation-duration: 4s;
   font-family: 'Architects Daughter';
@@ -155,9 +155,7 @@ font-family:'Architects Daughter';
   .opacity-sm-100 { opacity: 1; }
 }
 
-@media (min-width: 768px) {
 
-}
 
 @media (min-width: 992px) {
   .opacity-lg-0 { opacity: 0; }
