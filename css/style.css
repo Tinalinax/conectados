@@ -1,0 +1,213 @@
+.header {
+    background-color: #000b29;
+    color: black;
+    padding: 15px;
+}
+p {
+    color: black;
+}
+
+
+[class*="row"] {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 7px;
+    color: black;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+  }
+.body {
+  background-color: #F8F5F2;
+}
+  
+ h3, h4 {
+
+  color: black
+ } 
+
+ .navbar {
+   background-color: #000b29;
+   color: #F8F5F2;
+   font-family: 'KoHo';
+
+ }
+
+ #navbarResponsive{
+  float: left; 
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  color:#F8F5F2; 
+  
+
+ }
+
+ h2  {
+
+font-family:'Architects Daughter';
+ }
+
+ #listMantenimiento, #listPinturas, #listPlomeria, #listCarpinteria, #portafolio, #certificado, #info {
+
+  font-family:'Architects Daughter';
+ }
+
+ 
+
+ .iconsFooter {
+
+  font-size:  4vw;
+}
+
+ footer { 
+  background-color:#000b29;
+ }
+
+ #botonComprar {
+  font-weight: bold;
+ 
+ }
+
+ #tituloIndex {
+   font-size:  3vw;
+   text-align: center;
+   animation-duration: 2s;
+   font-family: 'Goblin One';
+ }
+
+ #subtituloIndex {
+  font-size:  vw;
+  text-align: center;
+  animation-duration: 4s;
+  font-family: 'Architects Daughter';
+  
+ }
+
+ #cajacategoria{
+
+  animation-duration: 3s;
+ }
+
+#iconoCategoria {
+  font-size: 9vw;
+  text-align: center;
+  color: #d70026;
+ }
+
+ 
+
+ #tecnologia, #belleza, #arte, #construccion, #deporteSalud, #educacion  {
+  
+   margin-top: 5px;
+   margin-left: 5px;
+   margin-bottom: 5px;
+   margin-right: 5px;
+   background-color: #edb83d;
+   color: #F8F5F2; 
+   font-family: 'Architects Daughter';
+  
+   
+
+ }
+
+ @media only screen and (min-width: 600px) {
+  /* For tablets: */
+  .col-s-1 {width: 8.33%;}
+  .col-s-2 {width: 16.66%;}
+  .col-s-3 {width: 25%;}
+  .col-s-4 {width: 33.33%;}
+  .col-s-5 {width: 41.66%;}
+  .col-s-6 {width: 50%;}
+  .col-s-7 {width: 58.33%;}
+  .col-s-8 {width: 66.66%;}
+  .col-s-9 {width: 75%;}
+  .col-s-10 {width: 83.33%;}
+  .col-s-11 {width: 91.66%;}
+  .col-s-12 {width: 100%;}
+}
+
+@media only screen and (min-width: 768px) {
+  /* For desktop: */
+  .col-1 {width: 8.33%;}
+  .col-2 {width: 16.66%;}
+  .col-3 {width: 25%;}
+  .col-4 {width: 33.33%;}
+  .col-5 {width: 41.66%;}
+  .col-6 {width: 50%;}
+  .col-7 {width: 58.33%;}
+  .col-8 {width: 66.66%;}
+  .col-9 {width: 75%;}
+  .col-10 {width: 83.33%;}
+  .col-11 {width: 91.66%;}
+  .col-12 {width: 100%;}
+
+  
+}
+
+
+
+
+
+@media (min-width: 576px) {
+  .opacity-sm-0 { opacity: 0; }
+  .opacity-sm-25 { opacity: .25; }
+  .opacity-sm-50 { opacity: .5; }
+  .opacity-sm-75 { opacity: .75; }
+  .opacity-sm-100 { opacity: 1; }
+}
+
+@media (min-width: 768px) {
+
+}
+
+@media (min-width: 992px) {
+  .opacity-lg-0 { opacity: 0; }
+  .opacity-lg-25 { opacity: .25; }
+  .opacity-lg-50 { opacity: .5; }
+  .opacity-lg-75 { opacity: .75; }
+  .opacity-lg-100 { opacity: 1; }
+}
+
+@media (min-width: 1200px) {
+  .opacity-xl-0 { opacity: 0; }
+  .opacity-xl-25 { opacity: .25; }
+  .opacity-xl-50 { opacity: .5; }
+  .opacity-xl-75 { opacity: .75; }
+  .opacity-xl-100 { opacity: 1; }
+}
+
+@media (min-width: 1400px) {
+  .opacity-xxl-0 { opacity: 0; }
+  .opacity-xxl-25 { opacity: .25; }
+  .opacity-xxl-50 { opacity: .5; }
+  .opacity-xxl-75 { opacity: .75; }
+  .opacity-xxl-100 { opacity: 1; }}
+
+  /* older phones */
+@media only screen and (min-width: 320px) {
+  aside {
+      display: none;
+  }
+
+  section.showslisting {
+      width: 100%;
+  }
+
+  .showdescription {
+      display: none;
+  }
+}
+  @media only screen and (min-width: 992px) {
+    aside {
+        width: 33%;
+        display: block;
+    }
+
+    section.showslisting {
+        width: 66%;
+    }
+
+    .showdescription {
+        white-space: normal;
+        width: 125px;
+    } 
+  }
